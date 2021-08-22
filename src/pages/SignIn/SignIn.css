@@ -1,0 +1,49 @@
+.DivContent{    
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    left: 2%;
+    right: 2%;
+}
+
+.DivLogo{
+    display: flex;
+    justify-content: center;   
+    background-color: midnightblue;
+    height: 100px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Divfields{
+   padding: 40px 10px 20px 10px;   
+   background-color: #19197008;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.imgLogo{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8%;
+}
+
+.btnLogin{
+    background-color: midnightblue!important;
+    border: 1px solid transparent!important;
+}
+.btnLogin:hover{
+    background-color: #191970b5!important;   
+}
+
+.btnRegister{
+    background-color: white!important;
+    color: gray!important;
+    border: 1px solid transparent!important;
+}
+
+.btnRegister:hover{
+    background-color: #80808045!important;  
+}
