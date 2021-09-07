@@ -1,14 +1,16 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import 'firebase/firestore';
 
 let firebaseConfig = {
-    apiKey: "AIzaSyDV_4YiKu3rxviPCKbF3_ypm0Dn4pp3Z3I",
-    authDomain: "chamados-e7a4b.firebaseapp.com",
-    projectId: "chamados-e7a4b",
-    storageBucket: "chamados-e7a4b.appspot.com",
-    messagingSenderId: "380863194593",
-    appId: "1:380863194593:web:3a3e9ff4591a4837061ea0"
+    apiKey: "AIzaSyBu6Np--Oa8FvAhOoy0onFFKlvsI32E6SQ",
+    authDomain: "chamados-46534.firebaseapp.com",
+    projectId: "chamados-46534",
+    storageBucket: "chamados-46534.appspot.com",
+    messagingSenderId: "669076615519",
+    appId: "1:669076615519:web:c8c45d4ee3d6dacc3bc6ea"
 };
+
 
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);

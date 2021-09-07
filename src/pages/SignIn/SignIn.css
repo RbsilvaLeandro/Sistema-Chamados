@@ -47,3 +47,11 @@
 .btnRegister:hover{
     background-color: #80808045!important;  
 }
+
+.LinkRegister{
+    text-decoration: none;
+}
+
+.LinkCancel{
+    text-decoration: none;
+}
