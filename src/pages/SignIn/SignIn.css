@@ -1,57 +1,71 @@
-.DivContent{    
-    position: absolute;
-    top: 25%;
-    width: 100%;
-    left: 2%;
-    right: 2%;
-}
 
-.DivLogo{
+.container-center{
+    height: 100%;
     display: flex;
-    justify-content: center;   
-    background-color: midnightblue;
-    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login{
+    background: #EAEAEC;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .login-area{
+    display: flex;
+    justify-content: center;
+    background-color: #181c2e;
+    width: 100%;
+  }
+  
+  .login-area img{
+    padding: 20px;
+    width: 170px;
+    height: 130px;
+  }
+  
+  form{
+    margin-top: 1.5em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form h1{
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: #181c2e;
+  }
+  
+  .login input{
+    margin-bottom: 15px;
+    height: 35px;
+    border:0;
+    border-radius: 7px;
     padding: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.Divfields{
-   padding: 40px 10px 20px 10px;   
-   background-color: #19197008;
-   border-bottom-left-radius: 5px;
-   border-bottom-right-radius: 5px;
-}
-
-.imgLogo{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 8%;
-}
-
-.btnLogin{
-    background-color: midnightblue!important;
-    border: 1px solid transparent!important;
-}
-.btnLogin:hover{
-    background-color: #191970b5!important;   
-}
-
-.btnRegister{
-    background-color: white!important;
-    color: gray!important;
-    border: 1px solid transparent!important;
-}
-
-.btnRegister:hover{
-    background-color: #80808045!important;  
-}
-
-.LinkRegister{
-    text-decoration: none;
-}
-
-.LinkCancel{
-    text-decoration: none;
-}
+    font-size: 15px;
+    background-color: #FFF;
+  }
+  
+  form button{
+    height: 35px;
+    border:0;
+    border-radius: 7px;
+    background-color: #181c2e;
+    color: #FFF;
+    font-size: 1.3em;
+  }
+  
+  .login a{
+    margin: 1.5em 0;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  
+  

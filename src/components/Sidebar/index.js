@@ -12,7 +12,9 @@ export default function SideBar() {
   return (
     <div className="sidebar">
       <div>
-        <img src={ avatar } alt="Foto avatar" />
+        <img src={ 
+           user.avatarUrl === undefined ? avatar :
+           user.avatarUrl === null ? avatar : user.avatarUrl} alt="Foto avatar" />
       </div>
 
       <Link to="/dashboard">
