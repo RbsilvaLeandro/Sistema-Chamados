@@ -1,0 +1,29 @@
+.salvar-btn{
+    width: 80px;
+    font-size: 15px;
+    background-color: #181c2e;
+    color: #FFF;
+    border: 1px solid black;
+  }
+  .salvar-btn:hover{
+    background-color: #FFF;
+    color: #000;
+ 
+  }
+
+  .logout-btn{
+     width: 80px;
+     font-size: 15px;
+     background-color: transparent;
+     color: black;
+     border: 1px solid black;
+  }
+  
+   .logout-btn:hover{
+     background-color: #181c2e;
+     color: #FFF;
+   } 
+
+   .divButtons{
+     display: inline-block;
+   }
